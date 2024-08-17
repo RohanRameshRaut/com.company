@@ -1,4 +1,4 @@
-
+package com.company;
 import java.util.Scanner;
 
 public class CWH_29_Ch6_practiceSet {
@@ -80,21 +80,23 @@ public class CWH_29_Ch6_practiceSet {
 //        }
 
         // Practice Problem 5
-//        int [] arr = {1, 2, 3, 4, 5, 6};
-//        int l = arr.length;
-//        int n = Math.floorDiv(l, 2);
-//        int temp;
-//        for(int i=0;i<n;i++)
-//        {
-//            // Swap arr[i] and arr[l-1-i]
-//            temp = arr[i];
-//            arr[i] = arr[l-1-i];
-//            arr[l-1-i] = temp;
-//        }
-//        for(int element: arr)
-//        {
-//            System.out.println(element);
-//        }
+        int [] arr = {1, 2, 3, 4, 5, 6};
+        int l = arr.length;
+//        System.out.println(l); ans-->6
+        int n = Math.floorDiv(l, 2); // nearest integer ex: 10//3-->3, but the quotient is 3.33 so floorDiv() ignores it.
+//        System.out.println("midPoint: "+ n); ans-->3, representingIndex-->4
+        int temp;
+        for(int i=0;i<n;i++)
+        {
+            // Swap arr[i] and arr[l-1-i]
+            temp = arr[i];
+            arr[i] = arr[l-1-i];
+            arr[l-1-i] = temp;
+        }
+        for(int element: arr)
+        {
+            System.out.println(element);
+        }
 
         // Practice Problem 6
 //        float [] marks = {45.7f, 67.8f, 99.2f, 2.3f};

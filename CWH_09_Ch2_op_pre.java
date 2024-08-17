@@ -1,3 +1,5 @@
+
+package com.company;
 public class CWH_09_Ch2_op_pre {
     public static void main(String[] args) {
 //        int a = 6*5-34/2; // Usually java does not follow BODMAS
@@ -26,8 +28,8 @@ public class CWH_09_Ch2_op_pre {
 
         // Quick Quiz
 
-        int x = 6, y=1;
-        int k = x * y/2;
+        int x =30 , y=34;
+        int k = x * y/2; // multiplication(*) has the highest precedence in java then / and %.
         System.out.println(k);
 
         int b = 1;

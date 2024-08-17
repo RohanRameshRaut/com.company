@@ -10,9 +10,24 @@ public class CWH_14_StringMethods {
 //        int value = name.length();
 //        System.out.println(value);
 //
-//        String lstring = name.toLowerCase();
+//        String lstring = name.toLowerCase(); // monstly all the string methods uses camel cases ex: toLowerCase();
 //        System.out.println(lstring);
-//
+
+//         // Naming Conventions
+//            1) Pascal Case --> PascalCase
+//            2) Camel Case --> camelCase
+//            3) Snake Case --> snake_case
+//            4) Kebab Case --> kebab-case (came from barbeque seek kabab)
+//            5) Flat Case --> flatcase
+//            6) Upper Flat Case --> UPPERFLATCASE
+//            7) Pascal Snake Case --> Pascal_Snake_Case
+//            8) Camel Snake Case --> camel_Snake_Case
+//            9) Cobol Case --> COBOL-CASE
+
+
+
+
+
 //        String ustring = name.toUpperCase();
 //        System.out.println(ustring);
 //

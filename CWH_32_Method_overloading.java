@@ -30,7 +30,7 @@ public class CWH_32_Method_overloading {
 
 //        Case 2: Changing the array
 //        int [] marks = {52, 73, 77, 89, 98, 94}; // marks is a reference of object {52, 73, 77, 89, 98, 94};
-//        change2(marks); // value will change as we are passing the reference i.e marks
+//        change2(marks); // value will change as we are passing the reference variable(array) i.e marks
 //        System.out.println("The value of marks[o] after running change is: "+ marks[0]);
 
 //        Method Overloading
