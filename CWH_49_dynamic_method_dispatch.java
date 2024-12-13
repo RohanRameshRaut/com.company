@@ -29,7 +29,7 @@ public class CWH_49_dynamic_method_dispatch {
         // ex: A Nokia and a Samsung galaxy S22 ultra both could be phones but not the SmartPhone, only Samsung galaxy S22 ultra is smart phone but Nokia and Samsung galaxy S22 ultra are Phones.
         // like SmartPhone is a subtype of Phone.
         obj.showTime();
-        obj.on(); // It will turn on the SmartPhone as it is an object of a SmartPhone
+        obj.on(); // It will turn on the SmartPhone as it is an object of a SmartPhone and the method on() is overriden by the smartPhone
 //        obj.music(); // Not allowed
 
 //        *** Dynamic Method dispatch:- Which method is going to run is decided at the runTime, cause object is created at the runTime is called Dynamic Method dispatch

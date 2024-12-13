@@ -21,6 +21,5 @@ public class CWH_05_TakingInput {
         String str = sc.nextLine(); // to avoid the above problem we use .nextLine() method
         System.out.println(str);
 
-
     }
 }
